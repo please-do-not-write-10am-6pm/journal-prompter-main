@@ -1,0 +1,40 @@
+
+/* @font-face {
+    font-family: 'Amatic SC', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+} */
+
+@import "https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap.css"; 
+
+
+div{
+  border: red 1px solid
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: #70C7B4;
+  text-align: center;
+}
+ul{
+  display: flex;
+  width:80%;
+  flex-wrap: wrap;
+  margin:auto;
+}
+
+li {
+  font-family: 'Amatic SC';
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  padding: 20px;
+  background-color: #70C7B4;
+  overflow: hidden;
+}
